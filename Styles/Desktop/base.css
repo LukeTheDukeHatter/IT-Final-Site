@@ -1,0 +1,41 @@
+/* Section Measurements */
+:root {
+    --header-height: 5em;
+    --footer-height: 5em;
+
+    --content-padding: 10em;
+    --hero-height: 500px;
+}
+
+/* Actual CSS */
+
+#Header-Button-Holder {
+    width: clamp(450px, 30%, 580px);
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HeaderButton {
+    width: 25%;
+    height: 100%;
+    background: transparent;
+    color: white;
+
+    font-size: 1.1em;
+}
+
+#menu-hider {
+    display: none;
+}
+
+.icon {
+    height: 60%;
+    aspect-ratio: 1;
+}
+
+#footericonholder {
+    width: 40%;
+}

@@ -1,0 +1,6 @@
+h1 { font-size: 2.5em; }
+.topimage {
+    background-position-y: bottom;
+    background-position-x: right;
+}
+#embedded-search-holder { width: 95vw; }

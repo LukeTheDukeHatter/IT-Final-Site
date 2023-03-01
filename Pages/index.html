@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../Styles/base.css">
+    <link rel="stylesheet" href="../Styles/index.css">
+
+    <link rel="stylesheet" media="all and (min-width: 675px)" href="../Styles/Desktop/index.css">
+    <link rel="stylesheet" media="all and (max-width: 675px)" href="../Styles/Mobile/index.css">
+
+
+    <link rel="stylesheet" media="all and (min-width: 675px)" href="../Styles/Desktop/base.css">
+    <link rel="stylesheet" media="all and (max-width: 675px)" href="../Styles/Mobile/base.css">
+</head>
+<body>
+    <header>
+        <img src="../images/Logo-H.png" id="Header-Logo" alt="Logo">
+        <img id='menu-hider' src="../images/icons/menu_closed.svg" style="filter: invert(100%); margin-right: 1.25vw; margin-left: 1.25vw;"/>
+        <div id="Header-Button-Holder" class="closed">
+            <button class="HeaderButton" onclick="window.location.href='index.html'">Home</button>
+            <button class="HeaderButton" onclick="window.location.href='search.html'">Search</button>
+            <button class="HeaderButton" onclick="window.location.href='aboutus.html'">About Us</button>
+            <button class="HeaderButton" onclick="window.location.href='contactus.html'">Contact Us</button>
+        </div>
+    </header>
+    <main>
+
+        <div class="topimage">
+            <h1>For All Your Festival<br>Information Needs<br></h1>
+            <a href="./search.html" style="font-size: 1.5em">Explore! -></a>
+        </div>
+
+        <h3><u>Discover the perfect festival for you!</u></h3>
+        <form id="embedded-search-holder">
+            <input id="querybox" class="inbox" type="text" placeholder="an artist, venue, or event name">
+            <div id="splitholder">
+                <input id="locationbox" class="inbox" type="text" placeholder="Anywhere">
+                <input id="datebox" class="inbox" type="text" placeholder="Anytime">
+            </div>
+        </form>
+
+    </main>
+    <footer>
+        <p id='CompanyNameTextThing' style="padding-left: 3em; color: white;"></p>
+        <div id="footericonholder">
+            <img class='icon' src="../images/icons/phone.svg" alt="" onclick="window.location.href='tel:07392068340'">
+            <img class='icon' src="../images/icons/mail.svg" alt="" onclick="window.location.href='mailto:testme@me.com'">
+            <img class='icon' src="../images/icons/facebook.svg" alt="" onclick="window.location.href='https://facebook.com'">
+            <img class='icon' src="../images/icons/instagram.svg" alt="" onclick="window.location.href='https://instagram.com'">
+            <img class='icon' src="../images/icons/twitter.svg" alt="" onclick="window.location.href='https://twitter.com'">
+        </div>
+    </footer>
+    <script src="../Scripts/footer.js"></script>
+    <script src="../Scripts/base.js"></script>
+    <script src="../Scripts/index.js"></script>
+</body>
+</html>
